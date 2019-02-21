@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 39.329 sec <<< FAILURE!
-closeHomePage(project.circuit.automation.HomePageTest)  Time elapsed: 0.581 sec  <<< FAILURE!
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 40.744 sec <<< FAILURE!
+closeHomePage(project.circuit.automation.HomePageTest)  Time elapsed: 0.281 sec  <<< FAILURE!
 java.lang.NullPointerException
 	at project.circuit.automation.HomePageTest.closeHomePage(HomePageTest.java:63)
 

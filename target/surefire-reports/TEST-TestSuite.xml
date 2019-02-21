@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="1" name="TestSuite" time="10.662" errors="0" skipped="2">
+<testsuite tests="7" failures="1" name="TestSuite" time="8.474" errors="0" skipped="2">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="circuitautomation"/>
@@ -11,7 +11,7 @@
     <property name="POM_ARTIFACTID" value="circuit.automation"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Jenkins\jre\lib\resources.jar;C:\Program Files (x86)\Jenkins\jre\lib\rt.jar;C:\Program Files (x86)\Jenkins\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Jenkins\jre\lib\jsse.jar;C:\Program Files (x86)\Jenkins\jre\lib\jce.jar;C:\Program Files (x86)\Jenkins\jre\lib\charsets.jar;C:\Program Files (x86)\Jenkins\jre\lib\jfr.jar;C:\Program Files (x86)\Jenkins\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -26,8 +26,8 @@
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="circuitautomation"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/circuitautomation/13/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#13"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/circuitautomation/14/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#14"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Jenkins\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.8.0_144"/>
@@ -38,7 +38,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Jenkins\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="13"/>
+    <property name="BUILD_ID" value="14"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -52,7 +52,7 @@
     <property name="java.home" value="C:\Program Files (x86)\Jenkins\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/circuitautomation/13/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/circuitautomation/14/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\Windows\TEMP"/>
     <property name="path.separator" value=";"/>
@@ -73,7 +73,7 @@
     <property name="POM_GROUPID" value="project"/>
     <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-circuitautomation-13"/>
+    <property name="BUILD_TAG" value="jenkins-circuitautomation-14"/>
     <property name="JENKINS_SERVER_COOKIE" value="40bb0dd1a92b7a49"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -87,7 +87,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Maven\apache-maven-3.6.0"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12.jar;C:\Maven\apache-maven-3.6.0\boot\plexus-classworlds-2.5.2.jar;C:\Maven\apache-maven-3.6.0/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Maven\apache-maven-3.6.0 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.27.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 55076"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Maven\apache-maven-3.6.0 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.27.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 55425"/>
     <property name="Path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Maven\apache-maven-3.6.0\bin;C:\allure\allure-2.6.0\bin;C:\Program Files\Git\cmd;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -101,7 +101,7 @@
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="C:\Maven\apache-maven-3.6.0/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/circuitautomation/13/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/circuitautomation/14/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="x86"/>
@@ -114,7 +114,7 @@
 "/>
     <property name="MAVEN_HOME" value="C:\Maven\apache-maven-3.6.0"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
-    <property name="BUILD_NUMBER" value="13"/>
+    <property name="BUILD_NUMBER" value="14"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="8e0a"/>
@@ -130,19 +130,19 @@
     <property name="PSModulePath" value="C:\Program Files (x86)\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\AutoIt3\AutoItX"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
   </properties>
-  <testcase classname="project.circuit.automation.HomePageTest" name="signInTest" time="2.648"/>
-  <testcase classname="project.circuit.automation.HomePageTest" name="loginTest" time="0.596"/>
-  <testcase classname="project.circuit.automation.LandingPageTest" name="landingPage_A" time="5.106"/>
-  <testcase classname="project.circuit.automation.LoginPageTest" name="loginId" time="0.567"/>
-  <testcase classname="project.circuit.automation.HomePageTest" name="closeHomePage" time="0.581">
+  <testcase classname="project.circuit.automation.HomePageTest" name="signInTest" time="2.506"/>
+  <testcase classname="project.circuit.automation.HomePageTest" name="loginTest" time="0.458"/>
+  <testcase classname="project.circuit.automation.LandingPageTest" name="landingPage_A" time="4.388"/>
+  <testcase classname="project.circuit.automation.LoginPageTest" name="loginId" time="0.277"/>
+  <testcase classname="project.circuit.automation.HomePageTest" name="closeHomePage" time="0.281">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at project.circuit.automation.HomePageTest.closeHomePage(HomePageTest.java:63)
 </failure>
   </testcase>
-  <testcase classname="project.circuit.automation.HomePageTest" name="CloseAll" time="0.582">
+  <testcase classname="project.circuit.automation.HomePageTest" name="CloseAll" time="0.282">
     <skipped/>
   </testcase>
-  <testcase classname="project.circuit.automation.HomePageTest" name="closeAll" time="0.582">
+  <testcase classname="project.circuit.automation.HomePageTest" name="closeAll" time="0.282">
     <skipped/>
   </testcase>
 </testsuite>
