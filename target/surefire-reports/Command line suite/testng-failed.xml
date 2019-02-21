@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="project.circuit.automation.LandingPageTest">
+        <methods>
+          <include name="landingPage_A"/>
+          <include name="CloseAll"/>
+          <include name="LandingPage"/>
+        </methods>
+      </class> <!-- project.circuit.automation.LandingPageTest -->
+      <class name="project.circuit.automation.LoginPageTest">
+        <methods>
+          <include name="closeAll"/>
+          <include name="pageTest"/>
+          <include name="loginId"/>
+        </methods>
+      </class> <!-- project.circuit.automation.LoginPageTest -->
+      <class name="project.circuit.automation.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="signInTest"/>
+          <include name="loginTest"/>
+          <include name="closeHomePage"/>
+        </methods>
+      </class> <!-- project.circuit.automation.HomePageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

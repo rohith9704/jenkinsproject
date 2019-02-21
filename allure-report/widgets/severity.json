@@ -1,0 +1,111 @@
+[ {
+  "uid" : "1dfb375dff17cf09",
+  "name" : "enterTitle",
+  "time" : {
+    "start" : 1549341847064,
+    "stop" : 1549341847608,
+    "duration" : 544
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57e188a08ba97903",
+  "name" : "createFrom",
+  "time" : {
+    "start" : 1549341846896,
+    "stop" : 1549341847060,
+    "duration" : 164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "205ad69907e50446",
+  "name" : "loginTest",
+  "time" : {
+    "start" : 1549365529405,
+    "stop" : 1549365530181,
+    "duration" : 776
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b505d895e6bec55d",
+  "name" : "startButtontest",
+  "time" : {
+    "start" : 1549341847764,
+    "stop" : 1549341847832,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1943bdce5cf58aaa",
+  "name" : "landingPage_A",
+  "time" : {
+    "start" : 1549365530196,
+    "stop" : 1549365537055,
+    "duration" : 6859
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec4075e5b8e8be5f",
+  "name" : "passwordTest",
+  "time" : {
+    "start" : 1549341843584,
+    "stop" : 1549341845347,
+    "duration" : 1763
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf1ac2b5833e8b56",
+  "name" : "loginId",
+  "time" : {
+    "start" : 1549365537069,
+    "stop" : 1549365537657,
+    "duration" : 588
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cced002dc60bcd0",
+  "name" : "password",
+  "time" : {
+    "start" : 1549365537669,
+    "stop" : 1549365538113,
+    "duration" : 444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca625b7ce6780bd1",
+  "name" : "signInTest",
+  "time" : {
+    "start" : 1549365526373,
+    "stop" : 1549365529148,
+    "duration" : 2775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a86d291acbd1ef00",
+  "name" : "enterDescription",
+  "time" : {
+    "start" : 1549341847614,
+    "stop" : 1549341847756,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2090f603f23419c5",
+  "name" : "conversation",
+  "time" : {
+    "start" : 1549341845351,
+    "stop" : 1549341846888,
+    "duration" : 1537
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20130" started-at="2019-02-21T03:01:14Z" finished-at="2019-02-21T03:01:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20130" started-at="2019-02-21T03:01:14Z" finished-at="2019-02-21T03:01:34Z">
+      <class name="project.circuit.automation.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:project.circuit.automation.HomePageTest@1a0dcaa]" name="setUp" is-config="true" duration-ms="11401" started-at="2019-02-21T03:01:14Z" finished-at="2019-02-21T03:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signInTest()[pri:0, instance:project.circuit.automation.HomePageTest@1a0dcaa]" name="signInTest" duration-ms="3158" started-at="2019-02-21T03:01:26Z" finished-at="2019-02-21T03:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:project.circuit.automation.HomePageTest@1a0dcaa]" name="loginTest" duration-ms="272" started-at="2019-02-21T03:01:29Z" finished-at="2019-02-21T03:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="passwordTest()[pri:2, instance:project.circuit.automation.HomePageTest@1a0dcaa]" name="passwordTest" duration-ms="2411" started-at="2019-02-21T03:01:29Z" finished-at="2019-02-21T03:01:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordTest -->
+        <test-method status="PASS" signature="conversation()[pri:3, instance:project.circuit.automation.HomePageTest@1a0dcaa]" name="conversation" duration-ms="1990" started-at="2019-02-21T03:01:32Z" finished-at="2019-02-21T03:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conversation -->
+        <test-method status="PASS" signature="createFrom()[pri:4, instance:project.circuit.automation.HomePageTest@1a0dcaa]" name="createFrom" duration-ms="118" started-at="2019-02-21T03:01:34Z" finished-at="2019-02-21T03:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFrom -->
+        <test-method status="PASS" signature="enterTitle()[pri:5, instance:project.circuit.automation.HomePageTest@1a0dcaa]" name="enterTitle" duration-ms="400" started-at="2019-02-21T03:01:34Z" finished-at="2019-02-21T03:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTitle -->
+        <test-method status="PASS" signature="enterDescription()[pri:6, instance:project.circuit.automation.HomePageTest@1a0dcaa]" name="enterDescription" duration-ms="156" started-at="2019-02-21T03:01:34Z" finished-at="2019-02-21T03:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDescription -->
+        <test-method status="PASS" signature="startButtontest()[pri:8, instance:project.circuit.automation.HomePageTest@1a0dcaa]" name="startButtontest" duration-ms="76" started-at="2019-02-21T03:01:34Z" finished-at="2019-02-21T03:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startButtontest -->
+        <test-method status="FAIL" signature="closeHomePage()[pri:0, instance:project.circuit.automation.HomePageTest@1a0dcaa]" name="closeHomePage" is-config="true" duration-ms="1" started-at="2019-02-21T03:01:34Z" finished-at="2019-02-21T03:01:34Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at project.circuit.automation.HomePageTest.closeHomePage(HomePageTest.java:63)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHomePage -->
+      </class> <!-- project.circuit.automation.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,137 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "passwordTest",
+    "uid" : "ec4075e5b8e8be5f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1549341843584,
+      "stop" : 1549341845347,
+      "duration" : 1763
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "conversation",
+    "uid" : "2090f603f23419c5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1549341845351,
+      "stop" : 1549341846888,
+      "duration" : 1537
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "createFrom",
+    "uid" : "57e188a08ba97903",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1549341846896,
+      "stop" : 1549341847060,
+      "duration" : 164
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "enterTitle",
+    "uid" : "1dfb375dff17cf09",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1549341847064,
+      "stop" : 1549341847608,
+      "duration" : 544
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "enterDescription",
+    "uid" : "a86d291acbd1ef00",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1549341847614,
+      "stop" : 1549341847756,
+      "duration" : 142
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "startButtontest",
+    "uid" : "b505d895e6bec55d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1549341847764,
+      "stop" : 1549341847832,
+      "duration" : 68
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "signInTest",
+    "uid" : "ca625b7ce6780bd1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1549365526373,
+      "stop" : 1549365529148,
+      "duration" : 2775
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "loginTest",
+    "uid" : "205ad69907e50446",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1549365529405,
+      "stop" : 1549365530181,
+      "duration" : 776
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "landingPage_A",
+    "uid" : "1943bdce5cf58aaa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1549365530196,
+      "stop" : 1549365537055,
+      "duration" : 6859
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "loginId",
+    "uid" : "cf1ac2b5833e8b56",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1549365537069,
+      "stop" : 1549365537657,
+      "duration" : 588
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "password",
+    "uid" : "cced002dc60bcd0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1549365537669,
+      "stop" : 1549365538113,
+      "duration" : 444
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

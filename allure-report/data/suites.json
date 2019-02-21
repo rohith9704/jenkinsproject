@@ -1,0 +1,173 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default suite",
+    "children" : [ {
+      "name" : "Default test",
+      "children" : [ {
+        "name" : "project.circuit.automation.HomePageTest",
+        "children" : [ {
+          "name" : "passwordTest",
+          "uid" : "ec4075e5b8e8be5f",
+          "parentUid" : "6bea76a04904dd8a89df75823a22922d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1549341843584,
+            "stop" : 1549341845347,
+            "duration" : 1763
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "conversation",
+          "uid" : "2090f603f23419c5",
+          "parentUid" : "6bea76a04904dd8a89df75823a22922d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1549341845351,
+            "stop" : 1549341846888,
+            "duration" : 1537
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "createFrom",
+          "uid" : "57e188a08ba97903",
+          "parentUid" : "6bea76a04904dd8a89df75823a22922d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1549341846896,
+            "stop" : 1549341847060,
+            "duration" : 164
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "enterTitle",
+          "uid" : "1dfb375dff17cf09",
+          "parentUid" : "6bea76a04904dd8a89df75823a22922d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1549341847064,
+            "stop" : 1549341847608,
+            "duration" : 544
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "enterDescription",
+          "uid" : "a86d291acbd1ef00",
+          "parentUid" : "6bea76a04904dd8a89df75823a22922d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1549341847614,
+            "stop" : 1549341847756,
+            "duration" : 142
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "startButtontest",
+          "uid" : "b505d895e6bec55d",
+          "parentUid" : "6bea76a04904dd8a89df75823a22922d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1549341847764,
+            "stop" : 1549341847832,
+            "duration" : 68
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6bea76a04904dd8a89df75823a22922d"
+      } ],
+      "uid" : "848117670d75f6868e681771989ad50e"
+    } ],
+    "uid" : "2c8837b97293ea01a164a5cd7048ad56"
+  }, {
+    "name" : "Command line suite",
+    "children" : [ {
+      "name" : "Command line test",
+      "children" : [ {
+        "name" : "project.circuit.automation.HomePageTest",
+        "children" : [ {
+          "name" : "signInTest",
+          "uid" : "ca625b7ce6780bd1",
+          "parentUid" : "c6ce127748721bda8a0ed85bba14d69b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1549365526373,
+            "stop" : 1549365529148,
+            "duration" : 2775
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "loginTest",
+          "uid" : "205ad69907e50446",
+          "parentUid" : "c6ce127748721bda8a0ed85bba14d69b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1549365529405,
+            "stop" : 1549365530181,
+            "duration" : 776
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c6ce127748721bda8a0ed85bba14d69b"
+      }, {
+        "name" : "project.circuit.automation.LandingPageTest",
+        "children" : [ {
+          "name" : "landingPage_A",
+          "uid" : "1943bdce5cf58aaa",
+          "parentUid" : "b5849477b61245901197d9159a8d4fa6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1549365530196,
+            "stop" : 1549365537055,
+            "duration" : 6859
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b5849477b61245901197d9159a8d4fa6"
+      }, {
+        "name" : "project.circuit.automation.LoginPageTest",
+        "children" : [ {
+          "name" : "loginId",
+          "uid" : "cf1ac2b5833e8b56",
+          "parentUid" : "5975eb4f482f3aafe7f416c99c6c919d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1549365537069,
+            "stop" : 1549365537657,
+            "duration" : 588
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5975eb4f482f3aafe7f416c99c6c919d"
+      }, {
+        "name" : "project.circuit.automation.PasswordPageTest",
+        "children" : [ {
+          "name" : "password",
+          "uid" : "cced002dc60bcd0",
+          "parentUid" : "15bd65f2e177c4815d5e850cbc25d0f3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1549365537669,
+            "stop" : 1549365538113,
+            "duration" : 444
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "15bd65f2e177c4815d5e850cbc25d0f3"
+      } ],
+      "uid" : "d25b44baf1a59b2ba9e824375ad84458"
+    } ],
+    "uid" : "a3ebd3885f734b5e692af432fe3ee17b"
+  } ]
+}

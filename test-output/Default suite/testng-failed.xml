@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="project.circuit.automation.HomePageTest">
+        <methods>
+          <include name="enterDescription"/>
+          <include name="setUp"/>
+          <include name="enterTitle"/>
+          <include name="signInTest"/>
+          <include name="conversation"/>
+          <include name="loginTest"/>
+          <include name="passwordTest"/>
+          <include name="startButtontest"/>
+          <include name="closeHomePage"/>
+          <include name="createFrom"/>
+        </methods>
+      </class> <!-- project.circuit.automation.HomePageTest -->
+      <class name="project.circuit.automation.LoginPageTest">
+        <methods>
+          <include name="closeAll"/>
+          <include name="pageTest"/>
+          <include name="loginId"/>
+          <include name="nextButton"/>
+        </methods>
+      </class> <!-- project.circuit.automation.LoginPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
